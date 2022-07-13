@@ -18,6 +18,9 @@ return new class extends Migration
             $table->string('title');//titulo
             $table->text('content');//conteudo
             $table->string('author');//autor
+            $table->string('email');//email
+            $table->string('senha');//senha
+            $table->softDeletes();
             $table->timestamps();
         });
     }
