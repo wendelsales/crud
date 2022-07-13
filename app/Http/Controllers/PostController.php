@@ -9,7 +9,7 @@ class PostController extends Controller
 {
     public function create(Request $request){
     
-     //metodo 1   
+     ////metodo 1   
      /*   $new_post =[
             'title'=>'meu primeiro post',
             'content'=>'conteudo',
